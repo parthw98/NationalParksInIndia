@@ -59,7 +59,7 @@
                     <h1 class="display-4 d-flex justify-content-center">National Parks in India</h1>
 
 
-                    <small class="d-flex justify-content-center" style="color: rgba(255,255,255,0.95)">This story map
+                    <small class="d-flex justify-content-center" style="color: rgba(255,255,255,0.95)">Created by: Parth Wanage, this story map
                         illustrates the National Parks in
                         India using a story map, please scroll down to continue.
                     </small>
@@ -292,20 +292,20 @@
             legend: forest_legend
         },
 
-        corbett1: { layer: L.marker([29.543507, 78.792741], {icon: corbettIcon1})},
-        corbett2: { layer: L.marker([29.490304, 78.866482], {icon: corbettIcon2})},
-        kaziranga1: { layer: L.marker([26.469961, 93.180575],{icon: kazirangaIcon})},
-        kaziranga2: { layer: L.marker([26.515770, 93.379162],{icon: kazirIcon})},
-        kaziranga3: { layer: L.marker([26.398817, 93.355405],{icon: kazirIcon2})},
-        ranthambore1: { layer: L.marker([26.015371, 76.506012],{icon: ranIcon1})},
-        ranthambore2: { layer: L.marker([26.017881, 76.508986],{icon: ranIcon2})},
-        gir1: { layer: L.marker([21.079603, 70.828173],{icon: girIcon1})},
-        gir2: { layer: L.marker([21.092331, 70.807053],{icon: girIcon2})},
-        kanha1: { layer: L.marker([22.360868, 80.539691],{icon: kanhaIcon1})},
-        kanha2: { layer: L.marker([22.307980, 80.668202],{icon: kanhaIcon2})},
-        kanha3: { layer: L.marker([22.387498, 80.618596],{icon: kanhaIcon3})},
-        sundarbans1: { layer: L.marker([21.879259, 88.858813],{icon: sundarIcon1})},
-        sundarbans2: { layer: L.marker([21.639198, 88.980183],{icon: sundarIcon2})},
+        corbett1: { layer: L.marker([29.543507, 78.792741], {icon: corbettIcon1}).bindPopup('<img src= "assets/img/corbett_tiger1.jpg" width="500">', {maxWidth: "auto"})},
+        corbett2: { layer: L.marker([29.490304, 78.866482], {icon: corbettIcon2}).bindPopup('<img src= "assets/img/corbett_tiger3.jpg" width="500">', {maxWidth: "auto"})},
+        kaziranga1: { layer: L.marker([26.469961, 93.180575],{icon: kazirangaIcon}).bindPopup('<img src= "https://www.kaziranga-national-park.com/wp-content/uploads/2019/05/kaziranga-national-park.jpg" width="500">', {maxWidth: "auto"})},
+        kaziranga2: { layer: L.marker([26.515770, 93.379162],{icon: kazirIcon}).bindPopup('<img src= "https://www.kaziranga-national-park.com/wp-content/uploads/2019/05/kaziranga-national-park2.jpg" width="500">', {maxWidth: "auto"})},
+        kaziranga3: { layer: L.marker([26.398817, 93.355405],{icon: kazirIcon2}).bindPopup('<img src= "https://www.kaziranga-national-park.com/wp-content/uploads/2019/05/kaziranga-national-park3.jpg" width="500">', {maxWidth: "auto"})},
+        ranthambore1: { layer: L.marker([26.015371, 76.506012],{icon: ranIcon1}).bindPopup('<img src= "https://www.telegraphindia.com/unsafe/930x523/smart/static.telegraphindia.com/derivative/THE_TELEGRAPH/1695711/16X9/imagef27f208f-b789-4932-abda-337ecb6aab2a.jpg" width="500">', {maxWidth: "auto"})},
+        ranthambore2: { layer: L.marker([26.017881, 76.508986],{icon: ranIcon2}).bindPopup('<img src= "https://ihplb.b-cdn.net/wp-content/uploads/2018/06/tiger.jpg" width="500">', {maxWidth: "auto"})},
+        gir1: { layer: L.marker([21.079603, 70.828173],{icon: girIcon1}).bindPopup('<img src= "https://m.economictimes.com/thumb/msid-66296217,width-1200,height-900,resizemode-4,imgsize-1052391/lion.jpg" width="500">', {maxWidth: "auto"})},
+        gir2: { layer: L.marker([21.092331, 70.807053],{icon: girIcon2}).bindPopup('<img src= "https://i.ytimg.com/vi/fmHUKB_PNF4/maxresdefault.jpg" width="500">', {maxWidth: "auto"})},
+        kanha1: { layer: L.marker([22.360868, 80.539691],{icon: kanhaIcon1}).bindPopup('<img src= "assets/img/sambar.jpg" width="500">', {maxWidth: "auto"})},
+        kanha2: { layer: L.marker([22.307980, 80.668202],{icon: kanhaIcon2}).bindPopup('<img src= "https://www.nationalgeographic.com/content/dam/yourshot/2013/07/1657744.jpg" width="500">', {maxWidth: "auto"})},
+        kanha3: { layer: L.marker([22.387498, 80.618596],{icon: kanhaIcon3}).bindPopup('<img src= "https://cdn.britannica.com/16/123516-004-4C167D94/Blackbuck.jpg" width="500">', {maxWidth: "auto"})},
+        sundarbans1: { layer: L.marker([21.879259, 88.858813],{icon: sundarIcon1}).bindPopup('<img src= "https://www.tourmyindia.com/socialimg/sunderban-national-park.jpg" width="500">', {maxWidth: "auto"})},
+        sundarbans2: { layer: L.marker([21.639198, 88.980183],{icon: sundarIcon2}).bindPopup('<img src= "https://darwintour.com.au/wp-content/uploads/2017/07/salt-water-crocodile.jpg" width="500">', {maxWidth: "auto"})},
 
         forestbase: {layer: L.tileLayer('https://api.mapbox.com/styles/v1/parthw98/ckau1nfzu33y11insnr77z51m/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoicGFydGh3OTgiLCJhIjoiY2s5d3U4anZoMDk4azNpbzhmYjhtbWh5diJ9.6AD-H203SlbOKZIVQO9H9A')},
 
